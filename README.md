@@ -1,5 +1,7 @@
 Atividade do projeto Beira Linha da PUC Minas, no curso de Prog.WEB.
 
-URL do projeto: https://github.com/sarahcaetano470-spec/PROG.WEB---BEIRA-LINHA
+Project URL: https://roadmap.sh/projects/single-page-cv
 
-Repositório: https://github.com/sarahcaetano470-spec/PROG.WEB---BEIRA-LINHA/tree/4f0772ab6ed3dd00146ceef020ceb478ab59da2c/p_curriculo
+Repository URL: https://github.com/sarahcaetano470-spec/PROG.WEB---BEIRA-LINHA
+
+Project files: https://github.com/sarahcaetano470-spec/PROG.WEB---BEIRA-LINHA/tree/main/p_curriculo
