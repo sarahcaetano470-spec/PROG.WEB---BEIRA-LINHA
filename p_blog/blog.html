@@ -3,30 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>Blog - SA</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <style>
+        *{
+          font-family: Arial, Helvetica, sans-serif;  
+        }
 
+        nav a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .box{
+            border: 1px solid black;
+            border-radius: 5px;
+        }
 
     </style>
 </head>
 <body>
     <header>
         <h1>Meu Blog</h1>
+        
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+
     </header>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Blog</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-    </nav>
+    
 
     <main>
-        <article>
-            
+        <section>
+            <h2>Why Semantic HTML Matters</h2>
+            <p>May 20, 2026 by Alex Carter</p>
+            <p>Semantic HTML is about using the right tags for the meaning of your content. <br>
+            It improves accessubility, SEO, and makes your code easier to maintain.</p>
+
+            <h3>Benefits</h3>
+            <p>Using semantic HTML helps you:</p>
+
+            <ul>
+                <li>Build more accessible websites</li>
+                <li>Improve search engine understanding</li>
+                <li>Write cleaner, more maintainable code</li>
+            </ul>
+
+            <h3>Examples</h3>
+            <p>When you focus on meaning, not appearance, you write clearer content. <br>
+            Use meaning matters, not appearance, and mark important ideas clearly.</p>
+
+            <img src="" alt="montains at sunrise">
+
+        </section>
+
+        <section>
+            <h3>Code sample</h3>
+            Use the < code > element for inline code, like < code > main < /code >.<br> 
+            Here is a code block:
+        <article class="box">
+            citação/codigo
         </article>
+
+        </section>
+
+        <aside>
+            <h3>Learn more</h3>
+            <p>Read the HTML Living Standart to leard more about HTML.</p>
+        </aside>
+        
     </main>
+
+    <footer>
+        <p>2026 MyBlog. All rights reserved.</p>
+    </footer>
 </body>
 </html>
